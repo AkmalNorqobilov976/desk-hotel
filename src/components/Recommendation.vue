@@ -85,7 +85,6 @@ export default {
         prevEl: ".button-prev",
       },
     });
-    console.log(swiper);
   },
   data: () => ({
     homeType: "",
