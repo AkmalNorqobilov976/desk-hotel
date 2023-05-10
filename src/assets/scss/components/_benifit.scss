@@ -1,0 +1,58 @@
+#Benifit {
+    padding-top: 140px;
+    padding-bottom: 194px;
+    padding-left: 66px;
+    padding-right: 66px;
+    position: relative;
+    background: url('./../images/DotOrnament.jpg') 50px 100px no-repeat,
+    url('./../images/redBlur.svg') no-repeat 100% 70%,
+    url('./../images/yellowBlur.svg') no-repeat 100% 100%;
+
+    .benifit-left {
+        width: 420px;
+        &__infos {
+            margin-top: 40px;
+            padding-left: 38.5px;
+
+            &--title {
+                font-weight: 600;
+                font-size: 32px;
+                line-height: 40px;
+                text-transform: capitalize;
+                color: $indigo;
+            }
+            
+            &--card {
+                margin-top: 62px;
+                font-family: 'Mulish';
+                h3 {
+                    font-weight: 800;
+                    font-size: 80px;
+                    line-height: 90px;
+                    letter-spacing: 0.888889px;
+                    color: #1EA59A;
+                }
+
+                p {
+
+                    font-weight: 300;
+                    font-size: 15px;
+                    line-height: 25px;
+                    letter-spacing: 0.346154px;
+                    color: #404852;
+                }
+            }
+        }
+    }
+
+    .benifit-right {
+        margin-left: 190px;
+        width: 700px;
+        height: 100%;
+        padding: 62px 90px;
+        background: #F6FAFA;
+        box-shadow: 12px 16px 25px rgba(0, 0, 0, 0.04);
+        flex-direction: column;
+        gap: 86px;
+    }
+}

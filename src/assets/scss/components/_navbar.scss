@@ -1,0 +1,35 @@
+#Navbar {
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 45px 99px 45px 107px;
+    .nav-list {
+        list-style: none;
+        gap: 24px;
+        &__item {
+            font-size: 14px;
+            line-height: 18px;
+            color: #BDBDBD;
+            font-style: normal;
+            font-weight: 600;
+        }
+
+        .active {
+            color: #828282;
+
+        }
+
+        & .btn {
+            @include btn($yellow, white);
+            font-size: 14px;
+            line-height: 18px;
+            font-style: normal;
+            font-weight: 600;
+            margin-left: 30px;
+        }
+
+    }
+
+}
